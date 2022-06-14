@@ -1,3 +1,6 @@
+<!--- SPDX-FileCopyrightText: 2022 Alec Delaney for Adafruit Industries --->
+<!--- SPDX-License-Identifier: MIT --->
+
 # Special cases:
 
 - PCA9685 can use any address between 0x40 to 0x7F.  Some of these addresses are fixed.  See the
