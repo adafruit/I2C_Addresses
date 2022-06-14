@@ -1,10 +1,7 @@
-<!--- SPDX-FileCopyrightText: 2022 Alec Delaney for Adafruit Industries --->
-<!--- SPDX-License-Identifier: MIT --->
-
 # Special cases:
 
 - PCA9685 can use any address between 0x40 to 0x7F.  Some of these addresses are fixed.  See the
-  [datasheet](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf) for details.  This chip is used in: 
+  [datasheet](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf) for details.  This chip is used in:
     - PWM/Servo Breakout
     - PWM/Servo Shield
     - PWM/Servo HAT

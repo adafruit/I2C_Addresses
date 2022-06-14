@@ -1,6 +1,3 @@
-<!--- SPDX-FileCopyrightText: 2022 Alec Delaney for Adafruit Industries --->
-<!--- SPDX-License-Identifier: MIT --->
-
 # Troublesome chips:
 
 Some sensors or chips have non-standard behavior that causes issues when
