@@ -1,5 +1,4 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adabot
 Source: https://github.com/adafruit/I2C_Addresses.git
 
 Files: *.md
