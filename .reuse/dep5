@@ -2,6 +2,5 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/adafruit/I2C_Addresses.git
 
 Files: *.md
-Copyright: 2022 Kattni Rembor for Adafruit Industries
-Copyright: 2022 Alec Delaney for Adafruit Industries
+Copyright: 2022 Kattni Rembor, Alec Delaney for Adafruit Industries
 License: MIT
