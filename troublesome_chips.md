@@ -20,7 +20,7 @@ If you're using Raspberry Pi with these chips, check out our
 
 # Troublesome microcontrollers:
 
-- MicroChip Atmel SAMD21, SAMx5x - I2C bus frequency below 95 kHz not available when I2Cperipheral is drive with a 48 MHz clock,
+- MicroChip Atmel SAMD21, SAMx5x - I2C bus frequency below 95 kHz not available in CircuitPython when `I2CTarget` is drive with a 48 MHz clock,
   which is typical. CircuitPython checks for out-of-range bus frequencies.
 
-- Espressif ESP32-S3 - Use software that uses Espressif ESP-IDF v5.0.0 or later. ESP32-S3 has problems with I2C devices that do clock stretching or have other unusual timing behavior, when using versions of the ESP-IDF SDK _older_ than v5.0.0. ESP-IDF, provided by Espressif, is the underlying software used by CircuitPython and the Arduino `esp32` board support package. CircuitPython 9.0.0 and later and Arduino `esp32` v5.0.0 and later use ESP-IDF v5 and later. These versions support most I2C devices well. However, some of the troublesome chips listed above still don't work well or at all even with ESP-IDF v5.
+- Espressif ESP32-S3 - Use software that uses Espressif ESP-IDF v5.0.0 or later. When using versions of the Espressif ESP-IDF SDK _older_ than v5.0.0. ESP-IDF, ESP32-S3 has problems with I2C devices that do clock stretching or have other unusual timing behavior. ESP-IDF is the underlying software used by CircuitPython and the Arduino `esp32` board support package. CircuitPython 9.0.0 and later and Arduino `esp32` v5.0.0 and later use ESP-IDF v5 and later. These versions support most I2C devices well. However, some of the troublesome chips listed above still don't work well or at all even with ESP-IDF v5.
