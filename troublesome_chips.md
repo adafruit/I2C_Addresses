@@ -6,7 +6,7 @@ trying to use I2C. Here's a few of the ones to watch for
 - AGS20MA - Use a bus speed of 20-30 kHz.
 - ATECCx08 - Use slow-speed I2C to get out of sleep mode.
 - BNO055 - Uses clock stretching, violates I2C protocol timing in some cases, and sometimes needs to be reset. Does not work well on i.MX RT10xx chips. Does not work well with ESP32, ESP32-S3 before ESP-IDF 5.3.2. Use CircuitPython 9.2.2 or later.
-- BNO055, BNO085 - Uses clock stretching, violates I2C protocol timing in some cases, and sometimes needs to be reset. Does not work well on i.MX RT10xx chips, ESP32, ESP32-S3.
+- BNO085 - Uses clock stretching, violates I2C protocol timing in some cases, and sometimes needs to be reset. Does not work well on i.MX RT10xx chips, ESP32, ESP32-S3.
 - CCS811 - Uses clock stretching.
 - LC709203F - Repeated start, clock stretching, sleep mode
 - MCP9600 (date codes 1845 or before) - bug: duplicate data from register.
